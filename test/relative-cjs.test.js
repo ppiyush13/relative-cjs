@@ -18,6 +18,8 @@ describe('testing module', () => {
         ['a/b/', 'a', '..'],
         ['a/b/', 'a/', '..'],
         ['a/b', 'a/', '..'],
+        ['./a/b.test/', 'a/c', '../c'],
+        ['./a/b.test', 'a/c', './c'],
 
     ])(' "%s"  "%s" --> "%s"', (a, b, expected) => {
         expect(relativeCjs(a, b, '/')).toEqual(expected);
