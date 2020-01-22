@@ -14,11 +14,15 @@ yarn add relative-cjs
 
 ## Motivation
 
-    - Very often we need to calculate relative path between two modules to generate CJS require function or ESM import statements.  
-    - This is obivious case when you are generating dynamic code or runtime for webpack plugins.  
-      Consider an example where you want to generate CSS stylesheet dynamically with url() function pointing to real files. 
-    - Path to require function or import statement must always start with '.' or '..'  
-    - This module is extends Jon Schlinkert's relative module and add '.' or '..' appropriately  
+  - Very often we need to calculate relative path between two modules to generate CJS require function or ESM import statements.  
+
+  - This is obivious case when you are generating dynamic code or runtime for webpack plugins.  
+    Consider an example where you want to generate CSS stylesheet dynamically with url() function pointing to real files.
+
+  - Path to require function or import statement must always start with '.' or '..'  
+
+  - This module is extends Jon Schlinkert's relative module and add '.' or '..' appropriately  
+  
 
 ## Usage
 
