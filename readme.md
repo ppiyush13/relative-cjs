@@ -44,7 +44,7 @@ yarn add relative-cjs
 
 ````
 ## Found an issue
-Please go through [relative][relative] documentation once. If issue still persists or feature requests, consider opening a [new issue][issue]  
+Please go through [relative][relative] documentation once. If issue still persists or feature requests, consider opening a [new issue][issues]  
 
 
 [relative]: https://github.com/jonschlinkert/relative
