@@ -1,0 +1,46 @@
+{
+    "name": "relative-cjs",
+    "version": "1.0.0",
+    "description": "Calculate relative path for commonJs require function",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
+    "scripts": {
+        "test": "jest",
+        "pretest": "npm run build",
+        "build": "bili --format esm --format cjs --bundle-node-modules --file-name relative-cjs.[format].js"
+    },
+    "dependencies": {
+        "relative": "^3.0.2"
+    },
+    "devDependencies": {
+        "bili": "^4.8.1",
+        "jest": "^25.1.0"
+    },
+    "license": "MIT",
+    "keywords": [
+        "calculate",
+        "relative",
+        "file",
+        "filepath",
+        "fs",
+        "path-relative",
+        "cjs",
+        "commonJs"
+    ],
+    "author": {
+        "name": "Piyush Lodaya",
+        "email": "ppiyush13@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ppiyush13/relative-cjs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ppiyush13/relative-cjs/issues"
+    },
+    "homepage": "https://github.com/ppiyush13/relative-cjs",
+    "files": [
+        "dist",
+        "src"
+    ]
+}
