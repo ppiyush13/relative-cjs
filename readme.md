@@ -21,7 +21,7 @@ yarn add relative-cjs
 
   - Path to require function or import statement must always start with '.' or '..'  
 
-  - This module is extends Jon Schlinkert's relative module and add '.' or '..' appropriately  
+  - This module is extends Jon Schlinkert's [relative][relative] module and adds '.' or '..' appropriately  
   
 
 ## Usage
@@ -44,4 +44,8 @@ yarn add relative-cjs
 
 ````
 ## Found an issue
-Please go through relative documentation once. If issue still persists or feature requests, consider opening a new issue 
+Please go through [relative][relative] documentation once. If issue still persists or feature requests, consider opening a [new issue][issue]  
+
+
+[relative]: https://github.com/jonschlinkert/relative
+[issues]: https://github.com/ppiyush13/relative-cjs/issues
