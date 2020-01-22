@@ -5,16 +5,18 @@
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
     "scripts": {
-        "test": "jest",
         "pretest": "npm run build",
-        "build": "bili --format esm --format cjs --bundle-node-modules --file-name relative-cjs.[format].js"
+        "test": "jest",
+        "build": "bili --format esm --format cjs --bundle-node-modules --file-name relative-cjs.[format].js",
+        "release": "np --no-yarn --no-cleanup --no-2fa"
     },
     "dependencies": {
         "relative": "^3.0.2"
     },
     "devDependencies": {
         "bili": "^4.8.1",
-        "jest": "^25.1.0"
+        "jest": "^25.1.0",
+        "np": "^5.2.1"
     },
     "license": "MIT",
     "keywords": [
