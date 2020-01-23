@@ -2,8 +2,8 @@
     "name": "relative-cjs",
     "version": "1.0.2",
     "description": "Calculate relative path for commonJs require function",
-    "main": "dist/index.cjs.js",
-    "module": "dist/index.esm.js",
+    "main": "dist/relative-cjs.cjs.js",
+    "module": "dist/relative-cjs.esm.js",
     "scripts": {
         "prebuild": "rimraf dist",
         "build": "bili --format esm --format cjs --bundle-node-modules --file-name relative-cjs.[format].js",
