@@ -1,6 +1,6 @@
 {
   "name": "relative-cjs",
-  "version": "1.0.3",
+  "version": "2.0.0-rc.0",
   "description": "Calculate relative path for commonJs require function",
   "keywords": [
     "calculate",
