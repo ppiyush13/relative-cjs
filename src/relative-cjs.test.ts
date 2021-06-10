@@ -1,8 +1,7 @@
-const relativeCjs = require('../dist/relative-cjs.cjs');
+import relativeCjs from './relative-cjs';
 
 describe('testing module', () => {
     it.each([
-
         ['./app', './app', './.'],
         ['./a', './b', '../b'],
         ['c:/windows/nodejs/path', 'd:/windows/nodejs/path', './d:/windows/nodejs/path'],
@@ -20,8 +19,7 @@ describe('testing module', () => {
         ['a/b', 'a/', '..'],
         ['./a/b.test/', 'a/c', '../c'],
         ['./a/b.test', 'a/c', './c'],
-
     ])(' "%s"  "%s" --> "%s"', (a, b, expected) => {
-        expect(relativeCjs(a, b, '/')).toEqual(expected);
+        expect(relativeCjs(a, b)).toEqual(expected);
     });
 });

@@ -1,0 +1,12 @@
+{
+    "include": ["src/**/*", "types/*"],
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "allowJs": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "declaration": false,
+        "declarationDir": null
+    }
+}

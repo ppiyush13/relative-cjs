@@ -1,10 +1,7 @@
 import relative from 'relative';
 
-function unixify(str) {
-    return str.replace(/[\\\/]+/g, '/');
-}
-
-export default (from, to) => {
+const unixify = (str: string) => str.replace(/[\\\/]+/g, '/');
+export default (from: string, to: string) => {
     const relativePath = relative(from, to);
     const unixifiedPath = unixify(relativePath);
 
