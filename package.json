@@ -1,59 +1,59 @@
 {
-    "name": "relative-cjs",
-    "version": "1.0.3",
-    "description": "Calculate relative path for commonJs require function",
-    "keywords": [
-        "calculate",
-        "relative",
-        "file",
-        "filepath",
-        "fs",
-        "path-relative",
-        "cjs",
-        "commonJs"
-    ],
-    "homepage": "https://github.com/ppiyush13/relative-cjs",
-    "bugs": {
-        "url": "https://github.com/ppiyush13/relative-cjs/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ppiyush13/relative-cjs.git"
-    },
-    "license": "MIT",
-    "author": {
-        "name": "Piyush Lodaya",
-        "email": "ppiyush13@gmail.com"
-    },
-    "types": "dist/relative-cjs.d.ts",
-    "main": "dist/relative-cjs.cjs.js",
-    "source": "src/relative-cjs.ts",
-    "files": [
-        "dist",
-        "src"
-    ],
-    "scripts": {
-        "test": "run-s test:*",
-        "test:types": "tsc --noEmit",
-        "test:code": "jest",
-        "lint": "prettier --write .",
-        "build": "run-s build:*",
-        "build:code": "microbundle build --no-compress --external none --globals none --format cjs --no-sourcemap",
-        "build:types": "rollup --config",
-        "release": "alpha"
-    },
-    "dependencies": {
-        "relative": "^3.0.2"
-    },
-    "devDependencies": {
-        "@types/jest": "^26.0.23",
-        "jest": "^27.0.4",
-        "microbundle": "^0.13.2",
-        "npm-run-all": "^4.1.5",
-        "prettier": "^2.3.1",
-        "rollup": "^2.51.1",
-        "rollup-plugin-dts": "^3.0.2",
-        "ts-jest": "^27.0.3",
-        "typescript": "^4.3.2"
-    }
+  "name": "relative-cjs",
+  "version": "1.0.3",
+  "description": "Calculate relative path for commonJs require function",
+  "keywords": [
+    "calculate",
+    "relative",
+    "file",
+    "filepath",
+    "fs",
+    "path-relative",
+    "cjs",
+    "commonJs"
+  ],
+  "homepage": "https://github.com/ppiyush13/relative-cjs",
+  "bugs": {
+    "url": "https://github.com/ppiyush13/relative-cjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppiyush13/relative-cjs.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Piyush Lodaya",
+    "email": "ppiyush13@gmail.com"
+  },
+  "types": "dist/relative-cjs.d.ts",
+  "main": "dist/relative-cjs.cjs.js",
+  "source": "src/relative-cjs.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "run-s test:*",
+    "test:types": "tsc --noEmit",
+    "test:code": "jest",
+    "lint": "prettier --write .",
+    "build": "run-s build:*",
+    "build:code": "microbundle build --no-compress --external none --globals none --format cjs --no-sourcemap",
+    "build:types": "rollup --config",
+    "release": "alpha"
+  },
+  "dependencies": {
+    "relative": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "microbundle": "^0.13.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.1",
+    "rollup": "^2.51.1",
+    "rollup-plugin-dts": "^3.0.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  }
 }
